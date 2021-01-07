@@ -1,0 +1,23 @@
+{
+  "name": "mggflow/time-meter",
+  "description": "Tool for measure time between moments",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pavel Eliseev",
+      "email": "deusagnis@gmail.com",
+      "homepage": "https://mggflow.in",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "MGGFLOW\\Tools\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.4"
+  }
+}
