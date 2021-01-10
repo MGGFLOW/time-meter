@@ -61,7 +61,7 @@ class TimeMeter
      * @param string $name
      * @return $this
      */
-    public function event($name)
+    public function event(string $name): TimeMeter
     {
         $this->setCurrentEvent($name);
 
